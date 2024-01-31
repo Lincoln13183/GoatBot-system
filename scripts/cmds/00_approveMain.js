@@ -6,7 +6,7 @@ module.exports = {
 		name: "main",
 		version: "1.0",
 		author: "Samuel Kâñèñgeè",
-		countDown: 5,
+		countDown: 1,
 		category:"admin",
 		role: 2
 	},

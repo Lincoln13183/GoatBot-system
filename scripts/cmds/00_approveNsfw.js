@@ -8,7 +8,7 @@ module.exports = {
 		author: "Samuel",
 		countDown: 5,
 		category:"NSFW",
-		role: 2
+		role: 1
 	},
 
 	onStart: async function({ api, args, message, event }) {

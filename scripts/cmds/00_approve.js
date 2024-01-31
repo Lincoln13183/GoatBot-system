@@ -5,7 +5,7 @@ module.exports = {
 		name: "approved",
 		author: "Jun",
 		countDown: 5,
-		role: 0,
+		role: 2,
 		category: "owner",
 		shortDescription: {
 			en: ""
@@ -35,7 +35,7 @@ module.exports = {
 		let idBox = args[0] || threadID;
 
 		if (args[0] == "list") {
-			msg = "LIST OF APPROVED BOXES! ";
+			msg = "LIST OF APPROVED BOX CHATS! ";
 			let count = 0;
 
 			for (const e of data) {
